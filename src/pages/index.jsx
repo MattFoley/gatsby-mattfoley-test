@@ -141,7 +141,7 @@ const Index = () => (
         <Footer>
           &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
           <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>. Made by{' '}
-          <a href="https://www.lekoarts.de">LekoArts</a>.
+          <a href="some link">LekoArts</a>.
         </Footer>
       </Contact>
     </Parallax>
