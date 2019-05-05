@@ -62,10 +62,24 @@ const Index = () => (
     <Layout />
     <Parallax pages={5}>
       <Hero offset={0}>
-        <BigTitle>
-          Hello, <br /> I'm John Doe.
-        </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <BigTitle>Hi!</BigTitle>
+        <Title>I'm Tj, (a.k.a. <a href="https://github.com/mattFoley">MattFoley</a> on GitHub)</Title>
+        <AboutDesc>
+          Below you'll find a collection of the many apps and things I've built over the years, as well as 
+          a bit of shameless self-aggrandizement.
+          <br/>
+          <br/>
+          Highlights include, but are not limited to: 
+            <br/>
+            <br/>
+            • Skillz, the fastest growing private company in the US. <a href="https://www.inc.com/profile/skillz">#1 Inc. 5000 2017</a>
+            <br/>
+            • <a href="https://itunes.apple.com/us/app/rise-shine-smiling-alarm-clock/id831209924?ls=1&mt=8">Rise & Shine</a>, an annoying alarm clock that only turns off when you smile into it. 
+            <br/>
+            • Directional Dash, originally created by <a href="https://www.mikehince.com">Mike Hince</a>. 
+            <br/>
+            • <a href="http://turntoread.com/">Turn to Read</a>, a pre-toddler whole word reading experiment.
+        </AboutDesc>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
@@ -105,16 +119,14 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
+            Since 2010 I've been building apps of all kinds, and have been lucky to work with many
+            brilliant software professionals along the way. 
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-          make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
-          want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
-          right?
+          Some days I write code, some days I manage people, and some days I sit at home and 
+          play in the garden. It's been a fun ride, and I'm so thankful for all the amazing people 
+          I've worked with along the way.
         </AboutDesc>
       </About>
       <Contact offset={4}>
